@@ -10,14 +10,15 @@ public class Volume extends CoffeeType{
 
     private int tempOfCoffee;
 
-    public Volume (String name, int cupBeansWeight, int price, String typeOfCup, double volume){
+    public Volume (String name, int cupBeansWeight, int price, String typeOfCup, double volume, int tempOfCoffee){
         super(name, cupBeansWeight, price);
         this.typeOfCup = typeOfCup;
         this.volume = volume;
+        this.tempOfCoffee = tempOfCoffee;
     }
     @Override
     public String toString(){
-        return String.format("Кофе: %s, Размер стаканчика: %s, Объем стаканчика: %f", super.toString(), typeOfCup, volume);
+        return String.format("Кофе: %s, Размер стаканчика: %s, Объем стаканчика: %f, Температура: %d", super.toString(), typeOfCup, volume, tempOfCoffee);
     }
 
     public String getTypeOfCup() {

@@ -14,7 +14,7 @@ public class CoffeeType {
 
     @Override
     public String toString(){
-        return String.format("Наименование: %s, Зерна: %d гр, Цена: %d", name, cupBeansWeight, price);
+        return String.format("Наименование: %s, Зерна: %d гр, Цена: %d рублей", name, cupBeansWeight, price);
     }
 
 
