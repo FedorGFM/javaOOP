@@ -4,7 +4,7 @@ import java.util.*;
 public class CoffeeMachine {
     private List<CoffeeType> assortmentList = new ArrayList<>();
     private double cash = 0;
-    private int coffeeBeans = 999;
+    private int coffeeBeansKG = 999;
 
     public CoffeeMachine addProduct(CoffeeType name) {
         assortmentList.add(name);
@@ -12,9 +12,11 @@ public class CoffeeMachine {
     }
 
     public CoffeeType findProduct(String name) {
+        //StringBuilder resultBuilder = new StringBuilder();
 
         for (CoffeeType type : assortmentList) {
             if (name.equals(type.getName())) {
+                //resultBuilder.append(name).append("\n");
                 return type;
             }
         }
@@ -35,10 +37,10 @@ public class CoffeeMachine {
         Volume foundCup = findByCupSize(typeOfCup);
 
 
-        if (coffeeBeans > 10) {
+        if (coffeeBeansKG > 10) {
             if (foundName != null && foundCup != null) {
                 cash = cash + foundName.getPrice();
-                coffeeBeans = coffeeBeans - foundName.getCupBeansWeight();
+                coffeeBeansKG = coffeeBeansKG - foundName.getCupBeansWeight();
             }
 
         }
@@ -61,7 +63,8 @@ public class CoffeeMachine {
             builder.append(name).append("\n");
 
         }
-        builder.append("\n").append("Денег в автомате: ").append(cash).append("\n").append("Зерна кофе в автомате: ").append(coffeeBeans).append("гр").append("\n");
+        builder.append("\n").append("Денег в автомате: ").append(cash).append("рублей").append("\n").append("Наличие зерен кофе в автомате: ")
+                .append(coffeeBeansKG).append("гр").append("\n");
         return builder.toString();
     }
 }

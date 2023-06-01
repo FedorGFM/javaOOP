@@ -5,27 +5,27 @@ public class Main {
     public static void main(String[] args) {
         CoffeeMachine coffeeMachine = new CoffeeMachine();
 
-        coffeeMachine.addProduct(new Volume("Эспрессо", 10, 170, "Маленький", 0.3, 80))
-                .addProduct(new Volume("Капучино", 10, 125, "Маленький", 0.3, 90))
-                .addProduct(new Volume("Капучино", 15, 155, "Средний", 0.4, 90))
-                .addProduct(new Volume("Латтэ", 10, 160, "Маленький", 0.3, 100))
-                .addProduct(new Volume("Латтэ", 14, 195, "Средний", 0.4, 100))
-                .addProduct(new Volume("Латтэ", 18, 235, "Большой", 0.5, 100))
-                .addProduct(new Volume("Американо", 25, 140, "Маленький", 0.2, 95));
+        coffeeMachine.addProduct(new Volume("эспрессо", 10, 170, "маленький", 0.3, 80))
+                .addProduct(new Volume("капучино", 10, 125, "маленький", 0.3, 90))
+                .addProduct(new Volume("капучино", 15, 155, "средний", 0.4, 90))
+                .addProduct(new Volume("латтэ", 10, 160, "маленький", 0.3, 100))
+                .addProduct(new Volume("латтэ", 14, 195, "средний", 0.4, 100))
+                .addProduct(new Volume("латтэ", 18, 235, "большой", 0.5, 100))
+                .addProduct(new Volume("американо", 25, 140, "маленький", 0.2, 95));
 
         System.out.println(coffeeMachine);
 
         System.out.println("---Кофе продано---");
-        Volume saleProduct1 = coffeeMachine.saleProduct("Латтэ", "Большой");
+        Volume saleProduct1 = coffeeMachine.saleProduct("латтэ", "средний");
         System.out.println(saleProduct1);
 
-        Volume saleProduct2 = coffeeMachine.saleProduct("Американо", "Маленький");
+        Volume saleProduct2 = coffeeMachine.saleProduct("американо", "маленький");
         System.out.println(saleProduct2);
 
-        Volume saleProduct3 = coffeeMachine.saleProduct("Эспрессо", "Маленький");
+        Volume saleProduct3 = coffeeMachine.saleProduct("эспрессо", "маленький");
         System.out.println(saleProduct3);
 
-        Volume saleProduct4 = coffeeMachine.saleProduct("Капучино", "Средний");
+        Volume saleProduct4 = coffeeMachine.saleProduct("капучино", "средний");
         System.out.println(saleProduct4);
         System.out.println("\n");
 
