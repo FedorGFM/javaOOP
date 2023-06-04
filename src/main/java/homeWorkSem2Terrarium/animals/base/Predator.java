@@ -1,6 +1,4 @@
-package homeWorkSem2.animals.base;
-
-import homeWorkSem2.animals.base.Animal;
+package homeWorkSem2Terrarium.animals.base;
 
 public abstract class Predator extends Animal {
     public Predator(String name) {

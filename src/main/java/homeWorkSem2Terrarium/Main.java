@@ -1,12 +1,11 @@
-package homeWorkSem2;
+package homeWorkSem2Terrarium;
 
-import homeWorkSem2.animals.BlackWidow;
-import homeWorkSem2.animals.HornedViper;
-import homeWorkSem2.animals.KingCobra;
-import homeWorkSem2.animals.RattleSnake;
-import homeWorkSem2.animals.Turtle;
-import homeWorkSem2.animals.base.Snake;
-import homeWorkSem2.terrarium.Terrarium;
+import homeWorkSem2Terrarium.animals.BlackWidow;
+import homeWorkSem2Terrarium.animals.HornedViper;
+import homeWorkSem2Terrarium.animals.KingCobra;
+import homeWorkSem2Terrarium.animals.RattleSnake;
+import homeWorkSem2Terrarium.animals.Turtle;
+import homeWorkSem2Terrarium.terrarium.Terrarium;
 
 public class Main {
     public static void main(String[] args) {

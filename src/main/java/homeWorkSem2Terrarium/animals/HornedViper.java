@@ -1,8 +1,8 @@
-package homeWorkSem2.animals;
+package homeWorkSem2Terrarium.animals;
 
-import homeWorkSem2.animals.base.Snake;
-import homeWorkSem2.RunSpeed;
-import homeWorkSem2.SwimSpeed;
+import homeWorkSem2Terrarium.animals.base.Snake;
+import homeWorkSem2Terrarium.RunSpeed;
+import homeWorkSem2Terrarium.SwimSpeed;
 
 public class HornedViper extends Snake implements RunSpeed, SwimSpeed {
     public HornedViper(String name) {

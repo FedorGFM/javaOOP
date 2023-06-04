@@ -1,8 +1,8 @@
-package homeWorkSem2.animals;
+package homeWorkSem2Terrarium.animals;
 
-import homeWorkSem2.animals.base.Herbivores;
-import homeWorkSem2.RunSpeed;
-import homeWorkSem2.SwimSpeed;
+import homeWorkSem2Terrarium.animals.base.Herbivores;
+import homeWorkSem2Terrarium.RunSpeed;
+import homeWorkSem2Terrarium.SwimSpeed;
 
 public class Turtle extends Herbivores implements RunSpeed, SwimSpeed {
     public Turtle(String name) {

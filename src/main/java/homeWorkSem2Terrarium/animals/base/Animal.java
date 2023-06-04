@@ -1,6 +1,6 @@
-package homeWorkSem2.animals.base;
+package homeWorkSem2Terrarium.animals.base;
 
-import homeWorkSem2.terrarium.Soundable;
+import homeWorkSem2Terrarium.terrarium.Soundable;
 
 public abstract class Animal implements Soundable {
     protected String name;

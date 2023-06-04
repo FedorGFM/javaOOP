@@ -1,4 +1,4 @@
-package homeWorkSem2.terrarium;
+package homeWorkSem2Terrarium.terrarium;
 
 public interface Soundable {
     String sound();

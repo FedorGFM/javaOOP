@@ -1,8 +1,8 @@
-package homeWorkSem2.terrarium;
+package homeWorkSem2Terrarium.terrarium;
 
-import homeWorkSem2.RunSpeed;
-import homeWorkSem2.SwimSpeed;
-import homeWorkSem2.animals.base.Animal;
+import homeWorkSem2Terrarium.RunSpeed;
+import homeWorkSem2Terrarium.SwimSpeed;
+import homeWorkSem2Terrarium.animals.base.Animal;
 
 import java.util.ArrayList;
 import java.util.List;

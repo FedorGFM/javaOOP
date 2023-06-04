@@ -1,7 +1,7 @@
-package homeWorkSem2.animals;
+package homeWorkSem2Terrarium.animals;
 
-import homeWorkSem2.RunSpeed;
-import homeWorkSem2.animals.base.Spider;
+import homeWorkSem2Terrarium.RunSpeed;
+import homeWorkSem2Terrarium.animals.base.Spider;
 
 public class BlackWidow extends Spider implements RunSpeed {
     public BlackWidow(String name) {
