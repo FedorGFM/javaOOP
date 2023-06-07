@@ -25,7 +25,7 @@ public class Main {
         System.out.println("\n---Заменить элемент (enter index)--");
         linkedList.set("Hello World!", 4);
 
-        System.out.println("\n---get-elements-by-index---");
+        System.out.println("\n---Показать список с изменениями---");
         for (int i = 0; i < linkedList.size(); i++) {
             System.out.println(linkedList.get(i));
         }
