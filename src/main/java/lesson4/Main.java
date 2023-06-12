@@ -1,11 +1,10 @@
 package lesson4;
 
-import lesson4.shield.Cuirasse;
-import lesson4.shield.Shield;
+import lesson4.protection.Cuirasse;
+import lesson4.protection.Shield;
 import lesson4.warriors.Archer;
 import lesson4.warriors.InfantryMan;
 import lesson4.warriors.Warrior;
-import lesson4.weapons.Weapon;
 import lesson4.weapons.meleeWeapon.Axe;
 import lesson4.weapons.meleeWeapon.Sword;
 import lesson4.weapons.rangedWeapon.Bow;

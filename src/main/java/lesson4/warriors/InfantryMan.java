@@ -1,6 +1,6 @@
 package lesson4.warriors;
 
-import lesson4.shield.Shields;
+import lesson4.protection.Shields;
 import lesson4.weapons.meleeWeapon.Melee;
 
 public class InfantryMan extends Warrior<Melee, Shields> {

@@ -1,4 +1,4 @@
-package lesson4.shield;
+package lesson4.protection;
 
 public class Shield implements Shields{
     @Override
